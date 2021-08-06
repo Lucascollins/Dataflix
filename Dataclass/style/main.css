@@ -1,0 +1,337 @@
+:root {
+    --azul: rgb(92, 6, 173);
+    --preta: #141414;
+    -branca: rgb(160, 182, 201);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
+
+body {
+    background: rgba(245, 245, 245, 0.842);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 30px;
+    margin-top: 12px;
+    color: var(--azul);
+    font-family: "Arial Black";
+    font-size: 25px;
+    animation-duration: 2s;
+    transition-duration: 2s;
+}
+
+header nav {
+    margin-right: 35rem;
+    margin-top: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--azul);
+    margin-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+    transition: 1s ease all;
+}
+
+header nav a:hover {
+    border-radius: 13%;
+    padding: 8px;
+    background-color: rgba(107, 15, 194);
+    transition: 0.5s ease all;
+    color: white;
+}
+
+
+/*curso big*/
+
+.curso {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left: 4%;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .40)100%), url("/img/big.png");
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 1rem;
+}
+
+.curso .desc {
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 35px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: "Arial Black";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.button {
+    background-color: rgba(70, 0, 136, 0.993);
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 5%;
+    text-align: center;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 6px;
+    margin-right: 5%;
+    margin-top: 8%;
+    cursor: pointer;
+    transition: 2.0s ease all;
+}
+
+.desc {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.curso:hover {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left: 4%;
+    background: linear-gradient(rgba(145, 142, 142, 0.5), rgba(175, 172, 172, 0.4)100%), url("/img/big.png");
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.button:hover {
+    background-color: rgb(119, 8, 223);
+    transition: 0.5s ease all;
+}
+
+.buttom i {
+    margin-right: 5px;
+}
+
+header nav a i {
+    margin-right: 8px;
+}
+
+
+/*datasc*/
+
+.data {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left: 4%;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .40)100%), url("/img/science.jpg");
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 1rem;
+}
+
+.data .desc {
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    font-family: "Arial Black";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.button {
+    background-color: rgba(70, 0, 136, 0.993);
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 5%;
+    text-align: center;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 6px;
+    margin-right: 3%;
+    margin-top: 8%;
+    cursor: pointer;
+    transition: 2.0s ease all;
+}
+
+.desc {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.data:hover {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left: 4%;
+    background: linear-gradient(rgba(145, 142, 142, 0.5), rgba(175, 172, 172, 0.4)100%), url("/img/science.jpg");
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.button:hover {
+    background-color: rgb(119, 8, 223);
+    transition: 0.5s ease all;
+}
+
+.buttom i {
+    margin-right: 5px;
+}
+
+header nav a i {
+    margin-right: 8px;
+}
+
+
+/*Dataenginner*/
+
+.eng {
+    font-size: 15px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-left: 4%;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .40)100%), url("/img/engi.jpg");
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 1rem;
+}
+
+.eng .desc {
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    font-family: "Arial Black";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.button {
+    background-color: rgba(70, 0, 136, 0.993);
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 5%;
+    text-align: center;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 6px;
+    margin-right: 3%;
+    margin-top: 8%;
+    cursor: pointer;
+    transition: 2.0s ease all;
+}
+
+.desc {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.eng:hover {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left: 4%;
+    background: linear-gradient(rgba(145, 142, 142, 0.5), rgba(175, 172, 172, 0.4)100%), url("/img/engi.jpg");
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.button:hover {
+    background-color: rgb(119, 8, 223);
+    transition: 0.5s ease all;
+}
+
+.buttom i {
+    margin-right: 5px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    margin-left: 10%;
+    display: block;
+}
+
+.carro-curso {
+    margin-left: 10px;
+    width: 95%;
+    height: 70%;
+    border-radius: 15%;
+}
+
+.item {
+    border-radius: 10%;
+}
